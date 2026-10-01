@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Form Field Counter</title>
+<style>
+  body{font:13px system-ui,sans-serif;width:340px;margin:0;padding:12px;color:#1a1a1a}
+  h1{font-size:15px;margin:0 0 8px}
+  .form{border:1px solid #ddd;border-radius:6px;padding:8px;margin:0 0 8px}
+  .ok{border-left:4px solid #2e9e5b}.warn{border-left:4px solid #d9a400}.bad{border-left:4px solid #c0392b}
+  .muted{color:#666;font-size:12px}
+  button{font:inherit;padding:6px 10px;margin-top:6px}
+</style>
+</head>
+<body>
+<h1>Form Field Counter</h1>
+<div id="out" class="muted">Scanning&hellip;</div>
+<button id="copy" hidden>Copy report</button>
+<p class="muted">Runs only on the tab you click it on. No data leaves your browser.</p>
+<script src="popup.js"></script>
+</body>
+</html>

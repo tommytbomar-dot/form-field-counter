@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Form Field Counter",
+  "version": "0.1.0",
+  "description": "Counts visible and required fields in each form on the current page and flags forms that are too long for mobile lead capture.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "Count form fields",
+    "default_popup": "popup.html"
+  },
+  "minimum_chrome_version": "102"
+}
